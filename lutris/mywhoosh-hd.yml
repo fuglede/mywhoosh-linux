@@ -35,7 +35,7 @@ script:
         file: python3
         args: $downloader 9nvdcph3xdz2 --download $CACHE --extract $GAMEDIR/drive_c/MyWhooshHD --extract-flat
     - move:
-        src: $GAMEDIR/drive_c/MyWhooshHD/MyWhoosh/MyWhoosh.exe
+        src: $GAMEDIR/drive_c/MyWhooshHD/MyWhoosh/Binaries/Win64/MyWhoosh.exe
         dst: $GAMEDIR/drive_c/MyWhooshHD/MyWhoosh/Binaries/Win64/MyWhoosh-Win64-Shipping.exe
     - execute:
         description: Patching WindowsConnectivity.dll
